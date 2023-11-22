@@ -1,0 +1,542 @@
+/* Homepage.css */
+
+.maincontainer {
+  width: 416px;
+  height: 680px;
+  border-radius: 43px;
+  background: #192A32;
+  /* Centering styles */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.vectors {
+  margin: 160px 0px 0px 170px;
+}
+
+.rectangle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 307px;
+  height: 154px;
+  flex-shrink: 0;
+  border-radius: 7px;
+  background: #1F3540;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin: 40px 54px 384px 55px;
+}
+
+#text {
+  color: #FFF;
+  font-family: 'DM Sans';
+  font-size: 22px;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 0em;
+  margin-top: -90px;
+}
+
+.smallrectangle {
+position: absolute;
+bottom: 53%;
+left: 50%;
+transform: translate(-50%, 50%);
+border-radius: 5px;
+background: #192A32;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+width: 276px;
+height: 45px;
+flex-shrink: 0;
+}
+
+.button {
+  background: #192A32;
+  border-radius: 5px;
+  width: 128px; /* Adjusted width to make the buttons equal */
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px; /* Add margin between buttons */
+}
+
+.button:hover {
+  background-color: #FFF; /* Change this to the desired color on hover */
+}
+
+.button.active {
+  background-color: #FFF; /* Change this to the desired color when clicked */
+}
+
+.newgame {
+  border-radius: 5px;
+  background: #F2B237;
+  width: 276px;
+  height: 40px;
+  color: #192A32;
+  font-family: 'DM Sans';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  position: absolute;
+  bottom: 33%; /* Adjusted bottom position */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.human {
+
+  
+  border-radius: 5px;
+  background: #32C4C3;
+  width: 276px;
+  height: 40px;
+  color: #192A32;
+  font-family: 'DM Sans';
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 800;
+
+  position: absolute;
+  bottom: 24%; /* Adjusted bottom position */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#line{
+  color: #192A32;
+
+}
+.invite{
+  width: 225px;
+height: 33px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #F2B237;
+position: absolute;
+bottom: 12%; /* Adjusted bottom position */
+left: 50%;
+transform: translateX(-50%);
+color: #192A32;
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+/* below is axios css */
+
+
+#lined {
+  color: #31C4BE;
+  font-family: DM Sans;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-align: center; /* Center the text horizontally */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content horizontally */
+  justify-content: center; /* Center the content vertically */
+  width: 290px;
+  height: 290px;
+  flex-shrink: 0;
+  border-radius: 18px;
+  background: #192A32;
+  margin-top: 180px; /* Move container to the bottom */
+  margin-left: 15px;
+}
+
+#texted {
+  width: 198px;
+  height: 172px;
+  flex-shrink: 0;
+  color: #F2B237;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+#pinimage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 29px;
+  height: 29px;
+  flex-shrink: 0;
+  margin-top:-20px ;
+  
+}
+
+#innerpinnerimage {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  margin-top: -25px;
+}
+#copy{
+  color: #F2B237;
+text-align: center;
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.logicbuttons {
+  width: 86px;
+  height: 86px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #1F3540;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 10px; /* Adjust the padding as needed */
+  margin-right: 20px; /* Add margin for spacing between buttons */
+ 
+
+}
+#buttonrow1,
+#buttonrow2,
+#buttonrow3 {
+  display: flex;
+  margin-left: 60px;
+  position: sticky;
+
+}
+
+#buttonrow1 {
+  margin: 190px 0px 0px 60px;
+}
+
+#buttonrow2 {
+  margin: 21px 0px 0px 60px;
+}
+
+#buttonrow3 {
+  margin: 31px 0px 0px 60px;
+}
+.smallimage {
+  position: absolute;
+  top: 150px; /* Adjust this value based on your needs */
+  left: 65%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content:left; /* Adjust this based on your layout */
+  width: 100%; /* Ensure the images are positioned relative to the container width */
+  padding-left: 5px;
+}
+
+.small-image {
+  height: 17.44px; /* Adjust this value based on your needs */
+  margin: 0 7px; /* Adjust the margin to add space between images */
+}
+.turn{
+  width: 69px;
+  height: 39px;
+  flex-shrink: 0;
+  border-radius: 10px;
+background: #1F3540;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+position: absolute;
+top: 140px; /* Adjust this value based on your needs */
+left: 50%;
+transform: translateX(-50%);
+display: flex;
+justify-content:left;
+padding-left: 18px;
+
+
+color: #A8BEC9;
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+align-items: center;
+text-align: center;
+
+
+}
+#x{
+  width: 90px;
+height: 49px;
+border-radius: 10px;
+background: #31C4BE;
+flex-shrink: 0;
+padding: 10px; /* Adjust the padding as needed */
+margin-right: 20px; /* Add margin for spacing between buttons */
+margin-top: 99px;
+margin-left: -320px;
+
+font-family: DM Sans;
+font-size: 14px;
+font-weight: 900;
+line-height: 13px;
+letter-spacing: 0em;
+text-align: left;
+}
+#o{
+  width: 90px;
+height: 49px;
+border-radius: 10px;
+border-radius: 10px;
+background: #A8BEC9;
+padding: 10px; /* Adjust the padding as needed */
+margin-right: 40px; /* Add margin for spacing between buttons */
+margin-top: 20px;
+margin-left: -4px;
+font-family: DM Sans;
+font-size: 14px;
+font-weight: 900;
+line-height: 13px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+#cpu{
+  border-radius: 10px;
+background: #F2B237;
+width: 90px;
+height: 49px;
+border-radius: 10px;
+padding: 10px; /* Adjust the padding as needed */
+margin-right: 20px; /* Add margin for spacing between buttons */
+margin-left: -25px;
+font-family: DM Sans;
+font-size: 14px;
+font-weight: 600;
+line-height: 13px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+#cpu1{
+  border-radius: 10px;
+background: #F2B237;
+width: 90px;
+height: 49px;
+border-radius: 10px;
+/* padding: 10px; Adjust the padding as needed */
+margin-top: 99px;
+margin-left: -320px;
+font-family: DM Sans;
+font-size: 14px;
+font-weight: 600;
+line-height: 13px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+#o1{
+  width: 90px;
+  height: 49px;
+  border-radius: 10px;
+  border-radius: 10px;
+  background: #A8BEC9;
+  padding: 10px; /* Adjust the padding as needed */
+  margin-right: 20px; /* Add margin for spacing between buttons */
+  margin-top: 20px;
+  margin-left: 15px;
+  font-family: DM Sans;
+  font-size: -74px;
+  font-weight: 900;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+#x1{
+  width: 90px;
+  height: 49px;
+  border-radius: 10px;
+  background: #31C4BE;
+  flex-shrink: 0;
+  padding: 10px; /* Adjust the padding as needed */
+  margin-right: 20px; /* Add margin for spacing between buttons */
+  margin-top: 20px;
+  margin-left:-3px;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.restart{
+
+
+flex-shrink: 0;
+border-radius: 5px;
+background: #A7BDC8;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+width: 44px;
+height: 37px;
+
+position: absolute;
+top: 145px; /* Adjust this value based on your needs */
+left: 75%;
+
+}
+#restart{
+  width: 19px;
+height: 19px;
+flex-shrink: 0;
+width: 16px;
+height: 16px;
+position: absolute;
+top: 8px;
+left: 11px;
+
+}
+.win{
+  width: 416px;
+height: 222px;
+position:absolute;
+top: -180px;
+left: -60px;
+background: #192A32;
+
+}
+#quittext{
+  color: #F2B237;
+text-align: center;
+font-family: DM Sans;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+position: absolute;
+
+
+top: 36px;
+left: 80px;
+
+}
+#playagin {
+  color: #192A32;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  z-index: 1;
+}
+#quit{
+  color: #192A32;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  left:38px;
+}
+.played{
+  border-radius: 10px;
+  background: #31C4BE;
+  
+height: 33px;
+flex-shrink: 0;
+position: absolute;
+left: 50px;
+top: 110px;
+
+}
+.quited{
+  border-radius: 10px;
+background: #F2B237;
+width: 113px;
+height: 33px;
+flex-shrink: 0;
+position: absolute;
+left: 220px;
+top: 110px;
+
+}
+.frame{
+  width: 416px;
+  height: 222px;
+  position:absolute;
+  left: -60px;
+  top: -200px;
+  
+  background: #192A32;
+  
+
+}
+#won{
+  color: #FFF;
+  color: #ACC2CD;
+font-family: DM Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: relative;
+width: 77px;
+height: 20px;
+top: 49px;
+left: 180px;
+
+}
+#win{
+  position: absolute;
+  left: 70px;
+  top:80px;
+  color: #F2B237;
+text-align: center;
+font-family: DM Sans;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+#winbut1{
+  width: 113px;
+height: 33px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #F2B237;
+color: #192A32;
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+position: absolute;
+left: 92px;
+top:140px;
+}
+#winbut2{
+  color: #192A32;
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+width: 129px;
+height: 33px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #31C4BE;
+position: absolute;
+left: 220px;
+top:140px;
+}
